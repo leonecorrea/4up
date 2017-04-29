@@ -15,9 +15,9 @@ layout: page
             </div>
             <hr />
             <p>{{ content }}</p>
-            {% if site.disqus and page.comments %}
-            {% include disqus.html %}
-            {% endif %}
+
+            {% include comments.html %}
+            
           </div>
         </div><!-- .col-md-7 close -->
       </div>
